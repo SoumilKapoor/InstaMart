@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==title==========================-->
+    <title>InstaMart</title>
+    <!--==CSS============================-->
+    <link rel="stylesheet" href="../css/style.css"/>
+    <!--==fav-icon=======================-->
+    <link rel="shortcut icon" href="../images/logo.png"/>
+    <!--==import-poppins-font============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--==Font-Awesome-for-icons=========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <!--==nav=======================================-->
+    <nav class="navigation">
+
+        <!--**logo********-->
+        <a href="home.html" class="logo">
+            <img src="../images/logo.png" height="1000" width="500"/>
+        </a>
+        <!--**menu-btn****-->
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <!--**menu********-->
+        <ul class="menu">
+            <li><a href="home.html">Home</a></li>
+            <li>
+                <a href="#popular-product">Popular Product's</a>
+                <span class="nav-label">Hot Offer</span>
+            </li>
+            <li><a href="about us.html">About Us</a></li>
+            <li><a href="contact us.html">Contact Us</a></li>
+        </ul>
+        <!--**nav-btns****-->
+        <div class="nav-btns">
+            <!--search-->
+            <input type="checkbox" id="nav-search-btn">
+            <label for="nav-search-btn" class="nav-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <!--search-container-->
+                <form action="">
+                    <!--close-->
+                    <label for="nav-search-btn" class="nav-search-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                    <!--box-->
+                    <div class="nav-search-box">
+                        <input type="text" placeholder="Search Product's" required>
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </form>
+            </label>
+            <!--user-->
+            <a href="#" class="nav-user">
+                <i class="fa-solid fa-user"></i>
+            </a>
+            <!--cart-->
+            <a href="#" class="nav-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>0</span>
+            </a>
+        </div>
+    
+    </nav><!--nav-end-->
+
+
+
+    <!--==Hot_products===========================-->
+    <section id="popular-product" class="hot-products">
+
+        <!--**heading********************-->
+        <div class="product-heading">
+            <h3>Clothing</h3>
+            <span>Here are the best products to buy</span>
+        </div>
+
+        <!--**container*****************-->
+        <div class="popular-product-container">
+
+            <!--**box1***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="product_page.html" class="product-img">
+                    <img src="../images/Bruberry.jpg" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="product_page.html" class="product-box-p-name">Bruberry</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Clothing</a> > <a>Sweatshirt</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$45</span>
+                    <del>$60</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box2***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/Casuals.jpg" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Casuals</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Clothing</a> > <a>Casuals</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$15</span>
+                    <del>$20</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box3***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/hoddie.jpg" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Hoodie</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Clothing</a> > <a>Hoodie</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$1000</span>
+                    <del>$1200</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box4***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/hoddie2.jpg" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Hoodie</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Clothing</a> > <a>Hoodie</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$125</span>
+                    <del>$200</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box5***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/jacket.jpg" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Jacket</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Clothing</a> > <a>Jacket</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$800</span>
+                    <del>$1000</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box1***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/jordan.jpg" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Nike Air Jordan</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Clothing</a> > <a>Shoes</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$500</span>
+                    <del>$1000</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box2***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/levis.jpg" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Levi's Hoodie</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Clothing</a> > <a>Hoodie</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$40</span>
+                    <del>$60</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box3***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/Nike Lowers.jpg" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Lowers</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Clothing</a> > <a>Lowers</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$800</span>
+                    <del>$1000</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box4***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/sharara.jpg" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Trouser's Women</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Clothing</a> > <a>Women's Wears</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$10</span>
+                    <del>$20</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+            <!--**box5***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/Shirt.jpg" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Shirt</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Clothing</a> > <a>Shirt</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$800</span>
+                    <del>$1000</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+        </div>
+        <!--**container*****************-->
+        <div class="popular-product-container">
+
+            <!--**box1***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="product_page.html" class="product-img">
+                    <img src="../images/shoes.jpg" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="product_page.html" class="product-box-p-name">Shoes</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Clothing</a> > <a>Shoes</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$45</span>
+                    <del>$60</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box2***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/Sweaters.jpg" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Sweaters</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Clothing</a> > <a>Sweaters</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$15</span>
+                    <del>$20</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box3***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/sweaters2.jpg" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Sweaters</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Clothing</a> > <a>Sweaters</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$1000</span>
+                    <del>$1200</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box4***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/sweatshirt.jpg" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Sweatshirt</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Clothing</a> > <a>Sweatshirt</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$125</span>
+                    <del>$200</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box5***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/Tommy White.jpg" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Tommy Sweatshirt</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Clothing</a> > <a>Sweatshirt</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$800</span>
+                    <del>$1000</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box1***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/tshirt.jpg" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">T-Shirt</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Clothing</a> > <a>tshirt</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$500</span>
+                    <del>$1000</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box2***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/Tuxedo.jpg" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Tuxedo</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Clothing</a> > <a>Suits</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$40</span>
+                    <del>$60</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box3***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/jordans2.jpg" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Nike Air Jordan</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Clothing</a> > <a>Shoe</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$800</span>
+                    <del>$1000</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box4***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/pumashoe.jpg" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Puma Shoe</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Clothing</a> > <a>Shoes</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$10</span>
+                    <del>$20</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+            <!--**box5***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/addidas.jpg" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Addidas Shoe</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a> Clothing</a> > <a>Shoe</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$800</span>
+                    <del>$1000</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+        </div>
+    </section>
+
+
+
+
+    <!--==Footer=================================-->
+    <footer>
+
+
+        <!--**container***********************-->
+        <div class="footer-container">
+
+            <!--**company**-->
+            <div class="footer-company-box">
+                <!--logo-->
+                <a href="../images/logo.png" class="footer-logo">Instamart</a>
+                <!--details-->
+                <p>No Empty Cart This Season With Instamart.</p>
+                <!--social-box-->
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <!--**link-box**-->
+            <div class="footer-link-box">
+                <strong>Main Link's</strong>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about us.html">About</a></li>
+                    <li><a href="contact us.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!--**subscribe**-->
+            <div class="footer-subscribe">
+                <strong>Subscribe Now</strong>
+                <p>And Get Updates On Latest Deals.</p>
+                <!--subscribe-box-->
+                <div class="subscribe-box">
+                    <input type="email" placeholder="Example@gmail.com" required/>
+                    <button>Subscribe</button>
+                </div>
+            </div>
+
+        </div><!--container-end-->
+
+        <!--**bottom********************-->
+        <div class="footer-bottom">
+            <span class="footer-owner">Made By Soumil,Jasmeet,Sajneet,Komal,Aryan</span>
+            <span class="copyright">© Copyright 2022</span>
+        </div>
+
+    </footer>
+    
+</body>
+</html>

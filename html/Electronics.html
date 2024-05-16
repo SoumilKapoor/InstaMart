@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==title==========================-->
+    <title>InstaMart</title>
+    <!--==CSS============================-->
+    <link rel="stylesheet" href="../css/style.css"/>
+    <!--==fav-icon=======================-->
+    <link rel="shortcut icon" href="../images/logo.png"/>
+    <!--==import-poppins-font============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--==Font-Awesome-for-icons=========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <!--==nav=======================================-->
+    <nav class="navigation">
+
+        <!--**logo********-->
+        <a href="home.html" class="logo">
+            <img src="../images/logo.png" height="1000" width="500"/>
+        </a>
+        <!--**menu-btn****-->
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <!--**menu********-->
+        <ul class="menu">
+            <li><a href="home.html">Home</a></li>
+            <li>
+                <a href="index.html#popular-product">Popular Product's</a>
+                <span class="nav-label">Hot Offer</span>
+            </li>
+            <li><a href="about us.html">About Us</a></li>
+            <li><a href="contact us.html">Contact Us</a></li>
+        </ul>
+        <!--**nav-btns****-->
+        <div class="nav-btns">
+            <!--search-->
+            <input type="checkbox" id="nav-search-btn">
+            <label for="nav-search-btn" class="nav-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <!--search-container-->
+                <form action="">
+                    <!--close-->
+                    <label for="nav-search-btn" class="nav-search-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                    <!--box-->
+                    <div class="nav-search-box">
+                        <input type="text" placeholder="Search Product's" required>
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </form>
+            </label>
+            <!--user-->
+            <a href="#" class="nav-user">
+                <i class="fa-solid fa-user"></i>
+            </a>
+            <!--cart-->
+            <a href="#" class="nav-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>0</span>
+            </a>
+        </div>
+
+    </nav><!--nav-end-->
+
+
+
+    <!--==Hot_products===========================-->
+    <section id="popular-product" class="hot-products">
+
+        <!--*heading*******************-->
+        <div class="product-heading">
+            <h3>Electronics</h3>
+            <span>Here are the best products to buy</span>
+        </div>
+
+        <!--*container****************-->
+        <div class="popular-product-container">
+
+            <!--*box1**-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/p1.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">WebCam For PC</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Computer Accessories</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$45</span>
+                    <del>$60</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--*box2**-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/p2.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Mouse For PC</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Computer Accessories</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$15</span>
+                    <del>$20</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--*box3**-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/p3.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">HP Touch Laptop</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Computer Accessories</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$1000</span>
+                    <del>$1200</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--*box4**-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/p4.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Headphone For PC</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Computer Accessories</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$125</span>
+                    <del>$200</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--*box5**-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/p5.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">DSLR Camera</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Camera Accessories</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$800</span>
+                    <del>$1000</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+
+
+            <!--*box1**-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/airheadpods.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Apple Headphones</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Mobile Accessories</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$500</span>
+                    <del>$1000</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--*box2**-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/airpods.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Apple Airpods</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Mobile Accessories</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$40</span>
+                    <del>$60</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--*box3**-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/applewatch.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Apple watch</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Watch Accessories</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$800</span>
+                    <del>$1000</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--*box4**-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/powerbank.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Power Bank</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Mobile Accessories</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$10</span>
+                    <del>$20</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+            <!--*box5**-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/monitor.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">PC MONITOR</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Computer Accessories</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$800</span>
+                    <del>$1000</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+        </div>
+        <!--*container****************-->
+        <div class="popular-product-container">
+
+            <!--*box1**-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/camera.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">WebCam For PC</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Camera Accessories</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$45</span>
+                    <del>$60</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--*box2**-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/cpu.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">CPU For PC</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Computer Accessories</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$650</span>
+                    <del>$20</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--*box3**-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/laptop.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">HP Touch Laptop</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Computer Accessories</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$1000</span>
+                    <del>$1200</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--*box4**-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/i14.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Iphone 14</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Mobile Accessories</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$899</span>
+                    <del>$200</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--*box5**-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/rgbkeyboard.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">RGB Keyboard</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Computer Accessories</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$800</span>
+                    <del>$1000</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--*box1**-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/samsungphone.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Samsung A21</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Mobile Phones</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$500</span>
+                    <del>$1000</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--*box2**-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/sony speakers.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Speakers</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Computer Accessories</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$40</span>
+                    <del>$60</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--*box3**-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/tripod.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Tripod Stand</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Mobile Accessories</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$23</span>
+                    <del>$5</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--*box4**-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/usb port.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">USB Type C Flash</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Mobile Accessories</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$10</span>
+                    <del>$20</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+            <!--*box5**-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/memorycard.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Memory Card</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Mobile Accessories</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$43</span>
+                    <del>$10</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+        </div>
+    </section>
+
+
+    <!--==Footer=================================-->
+    <footer>
+
+
+        <!--**container***********************-->
+        <div class="footer-container">
+
+            <!--**company**-->
+            <div class="footer-company-box">
+                <!--logo-->
+                <a href="../../images/logo.png" class="footer-logo">Instamart</a>
+                <!--details-->
+                <p>No Empty Cart This Season With Instamart.</p>
+                <!--social-box-->
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <!--**link-box**-->
+            <div class="footer-link-box">
+                <strong>Main Link's</strong>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about us.html">About</a></li>
+                    <li><a href="contact us.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!--**subscribe**-->
+            <div class="footer-subscribe">
+                <strong>Subscribe Now</strong>
+                <p>And Get Updates On Latest Deals.</p>
+                <!--subscribe-box-->
+                <div class="subscribe-box">
+                    <input type="email" placeholder="Example@gmail.com" required/>
+                    <button>Subscribe</button>
+                </div>
+            </div>
+
+        </div><!--container-end-->
+
+        <!--**bottom********************-->
+        <div class="footer-bottom">
+            <span class="footer-owner">Made By Soumil,Jasmeet,Sajneet,Komal,Aryan</span>
+            <span class="copyright">© Copyright 2022</span>
+        </div>
+
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Webpage title and stylesheet links -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==title==========================-->
+    <title>InstaMart</title>
+    <!--==CSS============================-->
+    <link rel="stylesheet" href="../css/style.css"/>
+    <!--==fav-icon=======================-->
+    <link rel="shortcut icon" href="../images/logo.png"/>
+    <!--==import-poppins-font============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--==Font-Awesome-for-icons=========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+                font-family: poppins;
+            }
+            #about-section {
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 80px 12%;
+            }
+            .about-left img{
+                width: 420px;
+                height: auto;
+                transform: translateY(50px);
+            }
+            .about-right {
+                width: 54%;
+            }
+
+            .about-right ul li {
+                display: flex;
+                align-items: center;
+            }
+
+            .about-right h1 {
+                color: dodgerblue;
+                font-size: 37px;
+                margin-bottom: 5px;
+            }
+
+            .about-right p {
+                color: #444;
+                line-height: 26px;
+                font-size: 15px;
+            }
+
+            .about-right .address {
+                margin: 25px 0;
+            }
+
+            .about-right .address ul li {
+                margin-bottom: 5px;
+            }
+
+            .address .address-logo {
+                margin-right: 15px;
+                color: dodgerblue;
+            }
+
+            .address .saprater {
+                margin: 0 35px;
+            }
+
+            .about-right .expertise ul {
+                width: 80%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .expertise h3 {
+                margin-bottom: 10px;
+            }
+
+            .expertise .expertise-logo {
+                font-size: 19px;
+                margin-right: 10px;
+                color: dodgerblue;
+            }
+        </style>
+
+
+</head>
+
+<body>
+    <!--==nav=======================================-->
+    <nav class="navigation">
+
+        <!--**logo********-->
+        <a href="home.html" class="logo">
+            <img src="../images/logo.png" height="1000" width="500"/>
+        </a>
+        <!--**menu-btn****-->
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <!--**menu********-->
+        <ul class="menu">
+            <li><a href="home.html">Home</a></li>
+            <li>
+                <a href="index.html#popular-product">Popular Product's</a>
+                <span class="nav-label">Hot Offer</span>
+            </li>
+            <li><a href="about us.html">About Us</a></li>
+            <li><a href="contact us.html">Contact Us</a></li>
+        </ul>
+        <!--**nav-btns****-->
+        <div class="nav-btns">
+            <!--search-->
+            <input type="checkbox" id="nav-search-btn">
+            <label for="nav-search-btn" class="nav-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <!--search-container-->
+                <form action="">
+                    <!--close-->
+                    <label for="nav-search-btn" class="nav-search-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                    <!--box-->
+                    <div class="nav-search-box">
+                        <input type="text" placeholder="Search Product's" required>
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </form>
+            </label>
+            <!--user-->
+            <a href="#" class="nav-user">
+                <i class="fa-solid fa-user"></i>
+            </a>
+            <!--cart-->
+            <a href="#" class="nav-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>0</span>
+            </a>
+        </div>
+
+    </nav><!--nav-end-->
+
+<section id="about-section">
+            <!-- about left  -->
+            <div class="about-left">
+                <img src="../images/logo.png" alt="About Img"/>
+            </div>
+
+            <!-- about right  -->
+            <div class="about-right">
+                <h4>Welcome to InstaMart - Your Ultimate Shopping Destination!</h4>
+                <h1>About Us</h1>
+                <p>At InstaMart, we believe that shopping should be more than just a transaction; it should be an experience. We are a passionate team dedicated to providing you with an unparalleled online shopping adventure, offering a wide range of high-quality products with convenience and style.
+                </p>
+                <div class="address">
+                    <ul>
+                        <li>
+                            <span class="address-logo">
+                                <i class="fas fa-paper-plane"></i>
+                            </span>
+                            <p>Address</p>
+                            <span class="saprater">:</span>
+                            <p>Toronto, Ontario, Canada</p>
+                        </li>
+                        <li>
+                            <span class="address-logo">
+                                <i class="fas fa-phone-alt"></i>
+                            </span>
+                            <p>Phone No</p>
+                            <span class="saprater">:</span>
+                            <p>+1 (437)654-4321</p>
+                        </li>
+                        <li>
+                            <span class="address-logo">
+                                <i class="far fa-envelope"></i>
+                            </span>
+                            <p>Email ID</p>
+                            <span class="saprater">:</span>
+                            <p>CustomerCare@InstaMart.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="expertise">
+                    <h3>Our Mission</h3>
+                    <p>At the core of InstaMart is a commitment to excellence. Our mission is to empower our customers by offering a diverse selection of products that cater to their unique needs and preferences. We strive to be at the forefront of innovation, bringing you the latest and greatest in fashion, technology, home goods, and more.</p>
+
+            </div>
+        </section>
+
+    <!--==Footer=================================-->
+    <footer>
+
+
+        <!--**container***********************-->
+        <div class="footer-container">
+
+            <!--**company**-->
+            <div class="footer-company-box">
+                <!--logo-->
+                <a href="../images/logo.png" class="footer-logo">Instamart</a>
+                <!--details-->
+                <p>No Empty Cart This Season With Instamart.</p>
+                <!--social-box-->
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <!--**link-box**-->
+            <div class="footer-link-box">
+                <strong>Main Link's</strong>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about us.html">About</a></li>
+                    <li><a href="contact us.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!--**subscribe**-->
+            <div class="footer-subscribe">
+                <strong>Subscribe Now</strong>
+                <p>And Get Updates On Latest Deals.</p>
+                <!--subscribe-box-->
+                <div class="subscribe-box">
+                    <input type="email" placeholder="Example@gmail.com" required/>
+                    <button>Subscribe</button>
+                </div>
+            </div>
+
+        </div><!--container-end-->
+
+        <!--**bottom********************-->
+        <div class="footer-bottom">
+            <span class="footer-owner">Made By Soumil,Jasmeet,Sajneet,Komal,Aryan</span>
+            <span class="copyright">© Copyright 2022</span>
+        </div>
+
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==title==========================-->
+    <title>InstaMart</title>
+    <!--==CSS============================-->
+    <link rel="stylesheet" href="../css/style.css"/>
+    <!--==fav-icon=======================-->
+    <link rel="shortcut icon" href="../images/logo.png"/>
+    <!--==import-poppins-font============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--==Font-Awesome-for-icons=========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <!--==nav=======================================-->
+    <nav class="navigation">
+
+        <!--**logo********-->
+        <a href="home.html" class="logo">
+            <img src="../images/logo.png" height="1000" width="500"/>
+        </a>
+        <!--**menu-btn****-->
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <!--**menu********-->
+        <ul class="menu">
+            <li><a href="home.html">Home</a></li>
+            <li>
+                <a href="#popular-product">Popular Product's</a>
+                <span class="nav-label">Hot Offer</span>
+            </li>
+            <li><a href="about us.html">About Us</a></li>
+            <li><a href="contact us.html">Contact Us</a></li>
+        </ul>
+        <!--**nav-btns****-->
+        <div class="nav-btns">
+            <!--search-->
+            <input type="checkbox" id="nav-search-btn">
+            <label for="nav-search-btn" class="nav-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <!--search-container-->
+                <form action="">
+                    <!--close-->
+                    <label for="nav-search-btn" class="nav-search-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                    <!--box-->
+                    <div class="nav-search-box">
+                        <input type="text" placeholder="Search Product's" required>
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </form>
+            </label>
+            <!--user-->
+            <a href="#" class="nav-user">
+                <i class="fa-solid fa-user"></i>
+            </a>
+            <!--cart-->
+            <a href="#" class="nav-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>0</span>
+            </a>
+        </div>
+    
+    </nav><!--nav-end-->
+
+
+
+    <!--==Hot_products===========================-->
+    <section id="popular-product" class="hot-products">
+
+        <!--**heading********************-->
+        <div class="product-heading">
+            <h3>Medicine</h3>
+            <span>Here are the best products to buy</span>
+        </div>
+
+        <!--**container*****************-->
+        <div class="popular-product-container">
+
+            <!--**box1***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="product_page.html" class="product-img">
+                    <img src="../images/med1.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="product_page.html" class="product-box-p-name">Benadryl Allergy Medicine, 25mg, 36 EA</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Medicine</a> > <a>Allergy</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$16.47</span>
+                    <del>$18.67</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box2***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/med2.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Mucinex® Chest Congestion Guaifenesin 600 mg Tablets Expectorant</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Medicine</a> > <a>Cough</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$16.47</span>
+                    <del>$17.47</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box3***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/med3.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Aerius Allergy Medicine - Desloratadine Antihistamine Pills </a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Medicine</a> > <a>Allergy</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$30.97</span>
+                    <del>$34.67</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box4***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/med4.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Advil Liqui-Gels 16 Capsules (200 Mg Each) - Pack of 3
+                    </a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Medicine</a> > <a>Pain-killer</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$29.99</span>
+                    <del>$30.99</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box5***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/med5.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">NeoCitran Extra Strength Cold & Sinus Night, 10 Pouches Apple Cinnamon</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Medicine</a> > <a>Cold</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$12.78</span>
+                    <del>$15.34</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box1***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/med6.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Tylenol Children's Medicine for Fever & Pain, Bubble Gum Chewables</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Medicine</a> > <a>Fever</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$9.28</span>
+                    <del>$10.38</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box2***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/med7.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Benadryl Itch Stopping Cream, Diphenhydramine Hydrochloride, Zinc Acetate</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Medicine</a> > <a>Itch</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$14.27</span>
+                    <del>$15.87</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box3***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/med8.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Boiron Coryzalia For Cold Symptoms, 60 Tablets</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Medicine</a> > <a>Cold</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$15.29</span>
+                    <del>$17.29</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box4***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/med9.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Reactine Regular Strength Antihistamine Tablets - 5mg Cetirizine Hydrochloride </a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Medicine</a> > <a>Allergy</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$24.97</span>
+                    <del>$25.97</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box5***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/med10.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Vicks DayQuil and NyQuil COMPLETE Cold, Flu and Congestion Medicine</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Medicine</a> > <a>Flu</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$15.97</span>
+                    <del>$17.97</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+        </div>
+        <!--**container*****************-->
+        <div class="popular-product-container">
+
+            <!--**box1***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="product_page.html" class="product-img">
+                    <img src="../images/med11.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="product_page.html" class="product-box-p-name">Coricidin Decongestant Free Cough and Cold Medicine, 24 Liquid Gels</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Clothing</a> > <a>Flu</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$11.97</span>
+                    <del>$13.97</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box2***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/med12.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Vitafusion MultiVites Adult Gummy Vitamins, 150 gummies</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Medicine</a> > <a>Vitamins</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$12.98</span>
+                    <del>$14.98</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box3***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/med13.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Pepcid AC Maximum Strength Acid Indigestion Medicine with 20mg of Famotidine Acid Reducer</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Medicine</a> > <a>Acidity</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$8.47</span>
+                    <del>10.47</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box4***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/med14.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Boiron Coryzalia 30 Doses for children</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Medicine</a> > <a>Cold</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$15.29</span>
+                    <del>$16.69</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box5***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/med15.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Sinus Rinse™ Regular Mixture Packets 100ct</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Medicine</a> > <a>Cold</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$25.95</span>
+                    <del>$26.95</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box1***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/med16.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Boiron Oscillococcinum 2 boxes of 30 unit-doses</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Medicine</a> > <a>Flu</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$54.99</span>
+                    <del>$55.99</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box2***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/med17.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Mucinex ® Multi-Action Cold & Sinus Caplets, 20 Count</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Medicine</a> > <a>Flu</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$16.77</span>
+                    <del>$18.77</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box3***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/med18.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Otrivin Medicated Cold & Allergy Relief Nasal Decongestant, 20ml Mist Spray</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Medicine</a> > <a>Cold</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$9.98</span>
+                    <del>$10.98</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box4***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/med19.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Boiron Dapis Gel,Homeopathic Medicine relieves pain, itching & hives of insect bites</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Medicine</a> > <a>Itch</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$11.42</span>
+                    <del>$13.42</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+            <!--**box5***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/med20.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">SYSTANE® Complete Preservative-Free, Lubricant Eye Drops</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Medicine</a> > <a>Eye</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$18.48</span>
+                    <del>$20.48</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+        </div>
+    </section>
+
+
+
+
+    <!--==Footer=================================-->
+    <footer>
+
+
+        <!--**container***********************-->
+        <div class="footer-container">
+
+            <!--**company**-->
+            <div class="footer-company-box">
+                <!--logo-->
+                <a href="../images/logo.png" class="footer-logo">Instamart</a>
+                <!--details-->
+                <p>No Empty Cart This Season With Instamart.</p>
+                <!--social-box-->
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <!--**link-box**-->
+            <div class="footer-link-box">
+                <strong>Main Link's</strong>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about us.html">About</a></li>
+                    <li><a href="contact us.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!--**subscribe**-->
+            <div class="footer-subscribe">
+                <strong>Subscribe Now</strong>
+                <p>And Get Updates On Latest Deals.</p>
+                <!--subscribe-box-->
+                <div class="subscribe-box">
+                    <input type="email" placeholder="Example@gmail.com" required/>
+                    <button>Subscribe</button>
+                </div>
+            </div>
+
+        </div><!--container-end-->
+
+        <!--**bottom********************-->
+        <div class="footer-bottom">
+            <span class="footer-owner">Made By Soumil,Jasmeet,Sajneet,Komal,Aryan</span>
+            <span class="copyright">© Copyright 2022</span>
+        </div>
+
+    </footer>
+    
+</body>
+</html>

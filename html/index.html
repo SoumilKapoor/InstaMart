@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==title==========================-->
+    <title>InstaMart</title>
+    <!--==CSS============================-->
+    <link rel="stylesheet" href="../css/style.css"/>
+    <!--==fav-icon=======================-->
+    <link rel="shortcut icon" href="../images/logo.png"/>
+    <!--==import-poppins-font============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--==Font-Awesome-for-icons=========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+
+    <!--==nav=======================================-->
+    <nav class="navigation">
+
+        <!--**logo********-->
+        <a href="home.html" class="logo">
+            <img src="../images/logo.png" height="1000" width="500"/>
+        </a>
+        <!--**menu-btn****-->
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <!--**menu********-->
+        <ul class="menu">
+            <li><a href="home.html">Home</a></li>
+            <li>
+                <a href="#popular-product">Popular Product's</a>
+                <span class="nav-label">Hot Offer</span>
+            </li>
+            <li><a href="about us.html">About Us</a></li>
+            <li><a href="contact us.html">Contact Us</a></li>
+        </ul>
+        <!--**nav-btns****-->
+        <div class="nav-btns">
+            <!--search-->
+            <input type="checkbox" id="nav-search-btn">
+            <label for="nav-search-btn" class="nav-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <!--search-container-->
+                <form action="">
+                    <!--close-->
+                    <label for="nav-search-btn" class="nav-search-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                    <!--box-->
+                    <div class="nav-search-box">
+                        <input type="text" placeholder="Search Product's" required>
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </form>
+            </label>
+            <!--user-->
+            <a href="#" class="nav-user">
+                <i class="fa-solid fa-user"></i>
+            </a>
+            <!--cart-->
+            <a href="#" class="nav-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>0</span>
+            </a>
+        </div>
+    
+    </nav><!--nav-end-->
+
+
+
+
+    <!--==main=============================-->
+    <section id="main">
+
+        <!--**text*********-->
+        <div class="main-text">
+            <strong>Favourite Product</strong>
+            <h1><span>Apple Watch Series 9</span></h1>
+            <p>Apple Watch Series 9 has an innovative sensor that tracks your temperature while you sleep, so you can see changes over time. Cycle Tracking uses this data to provide a retrospective estimate of when you likely ovulated, which can be helpful for family planning.</p>
+            <a href="#">Shop Now</a>
+        </div>
+        <!--**img**********-->
+        <div class="main-bg">
+            <img src="../images/main-bg.png" />
+        </div>
+
+    </section><!--main-end-->
+
+<!--==category=========================================-->
+<section id="category">
+
+    <!--heading---------------->
+    <div class="category-heading">
+        <h2>Category</h2>
+        
+    </div>
+
+
+    <!--box-container---------->
+    <div class="category-container">
+
+        <!--box---------------->
+        <a href="fish.html" class="category-box">
+            <img src="../images/fish.png" alt="Fish">
+            <span>Fish & Meat</span>
+        </a>
+
+        <!--box---------------->
+        <a href="Groceries.html" class="category-box">
+            <img src="../images/Vegetables.png" alt="Fish">
+            <span>Groceries</span>
+        </a>
+
+        <!--box---------------->
+        <a href="med.html" class="category-box">
+            <img src="../images/medicine.png" alt="Fish">
+            <span>Medicine</span>
+        </a>
+
+        <!--box---------------->
+        <a href="baby.html" class="category-box">
+            <img src="../images/baby.png" alt="Fish">
+            <span>Baby</span>
+        </a>
+
+        <!--box---------------->
+        <a href="off.html" class="category-box">
+            <img src="../images/office.png" alt="Fish">
+            <span>Office</span>
+        </a>
+
+        <!--box---------------->
+        <a href="beauty.html" class="category-box">
+            <img src="../images/beauty.png" alt="Fish">
+            <span>Beauty</span>
+        </a>
+
+        <!--box---------------->
+        <a href="gar.html" class="category-box">
+            <img src="../images/Gardening.png" alt="Fish">
+            <span>Gardening</span>
+        </a>
+
+        <!--box---------------->
+        <a href="Electronics.html" class="category-box">
+            <img src="../images/electronics.png" alt="Fish">
+            <span>Electronics</span>
+        </a>
+
+        <!--box---------------->
+        <a href="Clothing.html" class="category-box">
+            <img src="../images/clothing.png" alt="Fish">
+            <span>Clothing</span>
+        </a>
+    </div>
+
+    
+
+</section>
+<!--category-end----------------------------------->
+
+    <!--==Recent-Product=========================-->
+    <section class="recent-product">
+
+        <!--**heading********************-->
+        <div class="product-heading">
+            <h3>New Product Deals</h3>
+        </div>
+
+        <!--**container******************-->
+        <div class="r-product-container">
+            
+            <!--*box1*-->
+            <div class="r-product-box">
+                <!--img-->
+                <div class="r-product-img">
+                    <img src="../images/h1.png" />
+                </div>
+                <!--text-->
+                <div class="r-product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Nike Jordan's</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Footwear</a> > <a>Shoes</a>
+                    </span>
+                    <!--price-->
+                    <span class="p-box-price">$135.55 <del>$150</del></span>
+                </div>
+            </div><!--box-end-->
+
+            <!--*box2*-->
+            <div class="r-product-box">
+                <!--img-->
+                <div class="r-product-img">
+                    <img src="../images/h2.png" />
+                </div>
+                <!--text-->
+                <div class="r-product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Samsung S23 Ultra </a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Mobiles</a>
+                    </span>
+                    <!--price-->
+                    <span class="p-box-price">$1000.55 <del>$1200</del></span>
+                </div>
+            </div><!--box-end-->
+
+            <!--*box3*-->
+            <div class="r-product-box">
+                <!--img-->
+                <div class="r-product-img">
+                    <img src="../images/tamato.png" />
+                </div>
+                <!--text-->
+                <div class="r-product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Tomatos</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Vegetables</a>
+                    </span>
+                    <!--price-->
+                    <span class="p-box-price">$5.55 <del>$8</del></span>
+                </div>
+            </div><!--box-end-->
+
+            <!--*box4*-->
+            <div class="r-product-box">
+                <!--img-->
+                <div class="r-product-img">
+                    <img src="../images/atta.png" />
+                </div>
+                <!--text-->
+                <div class="r-product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Flour Wheat</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Vegetables</a>
+                    </span>
+                    <!--price-->
+                    <span class="p-box-price">$5.55 <del>$10</del></span>
+                </div>
+            </div><!--box-end-->
+
+            <!--*box5*-->
+            <div class="r-product-box">
+                <!--img-->
+                <div class="r-product-img">
+                    <img src="../images/h5.png" />
+                </div>
+                <!--text-->
+                <div class="r-product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Addidas T-Shirt Mens</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Clothing</a> > <a>T-Shirts</a>
+                    </span>
+                    <!--price-->
+                    <span class="p-box-price">$45.55 <del>$50</del></span>
+                </div>
+            </div><!--box-end-->
+
+            <!--*box6*-->
+            <div class="r-product-box">
+                <!--img-->
+                <div class="r-product-img">
+                    <img src="../images/h6.jpg" />
+                </div>
+                <!--text-->
+                <div class="r-product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Wireless Mouse For PC</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Computer Accsories</a>
+                    </span>
+                    <!--price-->
+                    <span class="p-box-price">$15.55 <del>$50</del></span>
+                </div>
+            </div><!--box-end-->
+        
+        </div>
+
+    </section><!--recent-end-->
+
+
+
+
+    <!--==Sale==================================-->
+    <section class="sale">
+
+        <!--**box1**********************-->
+        <div class="sale-box">
+            <!--img-->
+            <img src="../images/sale-1.jpg" />
+            <!--text-->
+            <a href="#" class="sale-text">
+                <strong>Laptop With Touch Screen</strong>
+                <span>Sale Off 25%</span>
+            </a>
+        </div>
+        <!--**box2**********************-->
+        <div class="sale-box">
+            <!--img-->
+            <img src="../images/sale-2.jpg" />
+            <!--text-->
+            <a href="#" class="sale-text">
+                <strong>Apple Smart Watch</strong>
+                <span>Sale Off 25%</span>
+            </a>
+        </div>
+        <!--**box3**********************-->
+        <div class="sale-box">
+            <!--img-->
+            <img src="../images/sale-3.jpg" />
+            <!--text-->
+            <a href="#" class="sale-text">
+                <strong>Android Wire Handfree</strong>
+                <span>Sale Off 25%</span>
+            </a>
+        </div>
+
+    </section><!--sale-end-->
+
+
+
+    <!--==Popular-product's===========================-->
+    <section id="popular-product">
+
+        <!--**heading********************-->
+        <div class="product-heading">
+            <h3>Popular Product's</h3>
+        </div>
+
+        <!--**container*****************-->
+        <div class="popular-product-container">
+
+            <!--**box1***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/p1.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Web Camera For PC</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Computer Accsories</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$45</span>
+                    <del>$60</del>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box2***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/p2.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Wireless Mouse For PC</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Computer Accsories</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$25</span>
+                    <del>$40</del>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box3***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/p3.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Touch HP Laptop</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Computer Accsories</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$1000</span>
+                    <del>$1200</del>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box4***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/p4.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">HeadPhone's For PC</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Computer Accsories</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$125</span>
+                    <del>$200</del>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box5***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/p5.png" alt="">
+                </a>
+                <!--text-->
+                <div class="../product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">DSLR Camera</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Camera Accsories</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$500</span>
+                    <del>$600</del>
+                </div>
+            </div><!--box-end-->
+
+        </div>
+
+    </section><!--==popular-end===-->
+
+
+    <!--==download-app====================================-->
+    <section id="download-app">
+
+        <!--img----------------------->
+        <div class="app-img">
+            <img src="../images/mobile-app.png" alt="app">
+        </div>
+
+        <!--text---------------------->
+        <div class="download-app-text">
+            <strong>Download App</strong>
+            <p>Welcome to our website's revolutionary Download App, your gateway to a seamless, efficient, and hassle-free downloading experience. Designed with user convenience in mind, our app aims to simplify the process of ordering what you need, right from the comfort of your device.</p>
+            <!--btns------->
+            <div class="download-btns">
+                <a href="#"><img src="../images/appstore-btn.png" alt=""></a>
+                <a href="#"><img src="../images/googleplay-btn.png" alt=""></a>
+            </div>
+        </div>
+
+    </section>
+    <!--download-app-section-end------------------------->
+
+
+    <!--==Footer=================================-->
+    <footer>
+
+
+        <!--**container***********************-->
+        <div class="footer-container">
+
+            <!--**company**-->
+            <div class="footer-company-box">
+                <!--logo-->
+                <a href="../images/logo.png" class="footer-logo">Instamart</a>
+                <!--details-->
+                <p>No Empty Cart This Season With Instamart.</p>
+                <!--social-box-->
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <!--**link-box**-->
+            <div class="footer-link-box">
+                <strong>Main Link's</strong>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about us.html">About</a></li>
+                    <li><a href="contact us.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!--**subscribe**-->
+            <div class="footer-subscribe">
+                <strong>Subscribe Now</strong>
+                <p>And Get Updates On Latest Deals.</p>
+                <!--subscribe-box-->
+                <div class="subscribe-box">
+                    <input type="email" placeholder="Example@gmail.com" required/>
+                    <button>Subscribe</button>
+                </div>
+            </div>
+
+        </div><!--container-end-->
+
+        <!--**bottom********************-->
+        <div class="footer-bottom">
+            <span class="footer-owner">Made By Soumil,Jasmeet,Sajneet,Komal,Aryan</span>
+            <span class="copyright">© Copyright 2022</span>
+        </div>
+
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==title==========================-->
+    <title>InstaMart</title>
+    <!--==CSS============================-->
+    <link rel="stylesheet" href="../css/style.css"/>
+    <!--==fav-icon=======================-->
+    <link rel="shortcut icon" href="../images/logo.png"/>
+    <!--==import-poppins-font============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--==Font-Awesome-for-icons=========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <!--==nav=======================================-->
+    <nav class="navigation">
+
+        <!--**logo********-->
+        <a href="home.html" class="logo">
+            <img src="../images/logo.png" height="1000" width="500"/>
+        </a>
+        <!--**menu-btn****-->
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <!--**menu********-->
+        <ul class="menu">
+            <li><a href="home.html">Home</a></li>
+            <li>
+                <a href="#popular-product">Popular Product's</a>
+                <span class="nav-label">Hot Offer</span>
+            </li>
+            <li><a href="about us.html">About Us</a></li>
+            <li><a href="contact us.html">Contact Us</a></li>
+        </ul>
+        <!--**nav-btns****-->
+        <div class="nav-btns">
+            <!--search-->
+            <input type="checkbox" id="nav-search-btn">
+            <label for="nav-search-btn" class="nav-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <!--search-container-->
+                <form action="">
+                    <!--close-->
+                    <label for="nav-search-btn" class="nav-search-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                    <!--box-->
+                    <div class="nav-search-box">
+                        <input type="text" placeholder="Search Product's" required>
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </form>
+            </label>
+            <!--user-->
+            <a href="#" class="nav-user">
+                <i class="fa-solid fa-user"></i>
+            </a>
+            <!--cart-->
+            <a href="#" class="nav-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>0</span>
+            </a>
+        </div>
+    
+    </nav><!--nav-end-->
+
+
+
+    <!--==Hot_products===========================-->
+    <section id="popular-product" class="hot-products">
+
+        <!--**heading********************-->
+        <div class="product-heading">
+            <h3>Baby</h3>
+            <span>Here are the best products to buy</span>
+        </div>
+
+        <!--**container*****************-->
+        <div class="popular-product-container">
+
+            <!--**box1***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="product_page.html" class="product-img">
+                    <img src="../images/baby1.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="product_page.html" class="product-box-p-name">Evenflo Aero Ultra-Lightweight Stroller (Dove)</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Baby</a> > <a>Stroller</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$139.97</span>
+                    <del>$199.97</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box2***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/baby2.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Evenflo Chase Plus Booster Car Seat</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Baby</a> > <a>CarSeat</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$109.97</span>
+                    <del>$129.97</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box3***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/baby3.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Munchkin Bluetooth Enabled Lightweight Baby Swing, Includes Remote Control</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Baby</a> > <a>Swing</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$249.97</span>
+                    <del>$255.97</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box4***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/baby4.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Dream On Me Edgewood 4-in-1 Convertible Mini Crib</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Baby</a> > <a>Crib</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$129.97</span>
+                    <del>$134.97</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box5***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/baby5.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Evenflo Infant Carrier - Creamsicle</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Baby</a> > <a>Carrier</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$39.99</span>
+                    <del>$42.99</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box1***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/baby6.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Pampers Swaddlers Diapers, Super Econo Pack, Size 1-8, 58-160CT</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Baby</a> > <a>Diapers</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$34.97</span>
+                    <del>$38.97</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box2***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/baby7.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Huggies Natural Care Sensitive Baby Wipes, Unscented, 15 Flip-Top Packs</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Baby</a> > <a>Wipes</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$21.97</span>
+                    <del>$29.97</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box3***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/baby8.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Pull-Ups Night Time Training Pants, Giga Pack, Size 3T-4T, 60 Count</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Baby</a> > <a>TrainingPants</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$26.97</span>
+                    <del>$32.87</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box4***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/baby9.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">WaterWipes Sensitive Baby Wipes, 4 Packs of 60 Count </a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Baby</a> > <a>Wipes</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$44.99</span>
+                    <del>$64.99</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+            <!--**box5***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/baby10.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Rascal + Friends Premium Jumbo Diapers, Unisex, Sizes 1-7</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Baby</a> > <a>Diapers</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$31.97</span>
+                    <del>$34.97</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+        </div>
+        <!--**container*****************-->
+        <div class="popular-product-container">
+
+            <!--**box1***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="product_page.html" class="product-img">
+                    <img src="../images/baby11.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="product_page.html" class="product-box-p-name">Johnson's Baby, Paraben Free, Calming Shampoo, 600 mL</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Baby</a> > <a>Shampoo</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$4.74</span>
+                    <del>$6.77</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box2***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/baby12.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Johnson's Baby Lotion, Skin Nourish Vanilla Oat Lotion, 500 mL</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Baby</a> > <a>Lotion</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$4.74</span>
+                    <del>$6.77</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box3***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/baby13.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Aveeno Baby Calming Comfort Bath Baby Body Wash</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Baby</a> > <a>BodyWash</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$14.77</span>
+                    <del>$16.67</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box4***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/baby14.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Parent's Choice Baby Oil with Aloe & Vitamin E, 591 mL</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Baby</a> > <a>Oil</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$4.47</span>
+                    <del>$6.47</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box5***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/baby15.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Equate Pure Cornstarch Baby Powder - Original, 624g</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Baby</a> > <a>Powder</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$3.78</span>
+                    <del>$5.78</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box1***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/baby16.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Parent’s Choice 3+3 Variety Pack Baby Food Purée, 768 mL</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Baby</a> > <a>Food</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$5.97</span>
+                    <del>$7.97</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box2***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/baby17.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Kendamil Whole Milk Baby Formula Powder, with HMOs, Prebiotics, with DHA, 800g, 0-12 Months</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Baby</a> > <a>Milk-powder</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$44.97</span>
+                    <del>$48.97</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box3***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/baby18.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Baby Gourmet Organic Puree Juicy Pear & Garden Greens, Puree - 128 mL</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Baby</a> > <a>Food</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$1.57</span>
+                    <del>$2.27</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box4***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/baby19.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">GERBER® Stage 3 Multigrain Yogurt Raspberry Baby Cereal 227 g</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Baby</a> > <a>Food</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$5.47</span>
+                    <del>$8.47</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+            <!--**box5***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="buy_now.html" class="product-img">
+                    <img src="../images/baby20.png" alt="">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="buy_now.html" class="product-box-p-name">Dr. Brown's Natural Flow Anti-Colic Options+ Narrow Baby Bottles, 8oz/250mL, Pack of 2</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Baby</a> > <a>Bottle</a>
+                    </span>
+                    <!--details-->
+                    <p></p>
+                    <!--price-->
+                    <span class="p-box-price">$14.97</span>
+                    <del>$16.97</del>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add Cart
+                    </a>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div><!--box-end-->
+
+        </div>
+    </section>
+
+
+
+
+    <!--==Footer=================================-->
+    <footer>
+
+
+        <!--**container***********************-->
+        <div class="footer-container">
+
+            <!--**company**-->
+            <div class="footer-company-box">
+                <!--logo-->
+                <a href="../images/logo.png" class="footer-logo">Instamart</a>
+                <!--details-->
+                <p>No Empty Cart This Season With Instamart.</p>
+                <!--social-box-->
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <!--**link-box**-->
+            <div class="footer-link-box">
+                <strong>Main Link's</strong>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about us.html">About</a></li>
+                    <li><a href="contact us.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!--**subscribe**-->
+            <div class="footer-subscribe">
+                <strong>Subscribe Now</strong>
+                <p>And Get Updates On Latest Deals.</p>
+                <!--subscribe-box-->
+                <div class="subscribe-box">
+                    <input type="email" placeholder="Example@gmail.com" required/>
+                    <button>Subscribe</button>
+                </div>
+            </div>
+
+        </div><!--container-end-->
+
+        <!--**bottom********************-->
+        <div class="footer-bottom">
+            <span class="footer-owner">Made By Soumil,Jasmeet,Sajneet,Komal,Aryan</span>
+            <span class="copyright">© Copyright 2022</span>
+        </div>
+
+    </footer>
+    
+</body>
+</html>

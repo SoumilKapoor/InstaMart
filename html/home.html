@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==title==========================-->
+    <title>InstaMart</title>
+    <!--==CSS============================-->
+    <link rel="stylesheet" href="../css/style.css"/>
+    <!--==fav-icon=======================-->
+    <link rel="shortcut icon" href="../images/logo.png"/>
+    <!--==import-poppins-font============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--==Font-Awesome-for-icons=========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+   <!-- <link href="../css/toast.style.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../js/toast.script.js"></script> -->
+</head>
+<body>
+    <!--==popup=======================================-->
+        </div>
+                <!--<button onclick="addToast()" >Basic Demo</button>-->
+                <script>
+                    function addToast(){
+                        $.Toast("welcome", "User", "notice", {
+                            has_icon:true,
+                            has_close_btn:true,
+                            stack: true,
+                            fullscreen:true,
+                            timeout:8000,
+                            sticky:false,
+                            has_progress:true,
+                            rtl:false,
+                        });
+                    }
+                    function addTocart(){
+                        $.Toast("Added To The Cart", "The Product is added in Your Cart!", "success", {
+                            has_icon:true,
+                            has_close_btn:true,
+                            stack: true,
+                            fullscreen:true,
+                            timeout:8000,
+                            sticky:false,
+                            has_progress:true,
+                            rtl:false,
+                        });
+                    }
+                </script>
+                <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-36251023-1']);
+          _gaq.push(['_setDomainName', 'jqueryscript.net']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        
+        </script>
+    <!--==popup end===================================-->
+    <!--==nav=======================================-->
+    <nav class="navigation">
+
+        <!--**logo********-->
+        <a href="home.html" class="logo">
+            <img src="../images/logo.png" height="1000" width="500"/>
+        </a>
+        <!--**menu-btn****-->
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <!--**menu********-->
+        <ul class="menu">
+            <li><a href="home.html">Home</a></li>
+            <li>
+                <a href="index.html#popular-product">Popular Product's</a>
+                <span class="nav-label">Hot Offer</span>
+            </li>
+            <li><a href="about us.html">About Us</a></li>
+            <li><a href="contact us.html">Contact Us</a></li>
+        </ul>
+        <!--**nav-btns****-->
+        <div class="nav-btns">
+            <!--search-->
+            <input type="checkbox" id="nav-search-btn">
+            <label for="nav-search-btn" class="nav-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <!--search-container-->
+                <form action="">
+                    <!--close-->
+                    <label for="nav-search-btn" class="nav-search-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                    <!--box-->
+                    <div class="nav-search-box">
+                        <input type="text" placeholder="Search Product's" required>
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </form>
+            </label>
+            <!--user-->
+            <a href="#" class="nav-user">
+                <i class="fa-solid fa-user"></i>
+            </a>
+            <!--cart-->
+            <a href="#" class="nav-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>0</span>
+            </a>
+        </div>
+
+    </nav><!--nav-end-->
+
+
+    <!-- main webpage starts -->
+
+    <!--==Search-banner=======================================-->
+    <section id="search-banner">
+
+        <!--bg--------->
+        <img src="../images/bg-1.png" class="bg-1" alt="bg">
+        <img src="../images/bg-2.png" class="bg-2" alt="bg-2">
+
+
+        <!--text------->
+        <div class="search-banner-text">
+            <h1>Order Your daily Need Products</h1>
+            <strong>#Free Delivery</strong>
+
+            <!--search-box------>
+            <form action="" class="search-box">
+                <!--icon------>
+                <i class="fas fa-search"></i>
+                <!--input----->
+                <input type="text" class="search-input" placeholder="Search your daily groceries" name="search" required>
+                <!--btn------->
+                <input type="submit" class="search-btn" value="Search">
+            </form>
+
+        </div>
+
+    </section>
+    <!--search-banner-end--------------->
+   
+<!--==category=========================================-->
+<section id="category">
+
+    <!--heading---------------->
+    <div class="category-heading">
+        <h2>Category</h2>
+        
+    </div>
+
+
+    <!--box-container---------->
+    <div class="category-container">
+
+        <!--box---------------->
+        <a href="fish.html" class="category-box">
+            <img src="../images/fish.png" alt="Fish">
+            <span>Fish & Meat</span>
+        </a>
+
+        <!--box---------------->
+        <a href="Groceries.html" class="category-box">
+            <img src="../images/Vegetables.png" alt="Fish">
+            <span>Groceries</span>
+        </a>
+
+        <!--box---------------->
+        <a href="medicine.html" class="category-box">
+            <img src="../images/medicine.png" alt="Fish">
+            <span>Medicine</span>
+        </a>
+
+        <!--box---------------->
+        <a href="baby.html" class="category-box">
+            <img src="../images/baby.png" alt="Fish">
+            <span>Baby</span>
+        </a>
+
+        <!--box---------------->
+        <a href="office.html" class="category-box">
+            <img src="../images/office.png" alt="Fish">
+            <span>Office</span>
+        </a>
+
+        <!--box---------------->
+        <a href="beauty.html" class="category-box">
+            <img src="../images/beauty.png" alt="Fish">
+            <span>Beauty</span>
+        </a>
+
+        <!--box---------------->
+        <a href="gardening.html" class="category-box">
+            <img src="../images/Gardening.png" alt="Fish">
+            <span>Gardening</span>
+        </a>
+
+        <!--box---------------->
+        <a href="Electronics.html" class="category-box">
+            <img src="../images/electronics.png" alt="Fish">
+            <span>Electronics</span>
+        </a>
+
+        <!--box---------------->
+        <a href="Clothing.html" class="category-box">
+            <img src="../images/clothing.png" alt="Fish">
+            <span>Clothing</span>
+        </a>
+    </div>
+
+    
+
+</section>
+<!--category-end----------------------------------->
+
+    <!--Popular-bundle-pack===================================-->
+    <section id="popular-bundle-pack">
+        <!--box-container------>
+        <div class="product-container">
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="../images/grocery.jpg" alt="pack">
+                <strong>Upto 40% off</strong>
+                <span class="price">Groceries</span>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="../images/electronics.jpeg"  alt="apple">
+                <strong>Upto 45% off</strong>
+                <span class="price">Electronics</span>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="../images/clothingsc.jpg" alt="apple">
+                <strong>Upto 60% off</strong>
+                <span class="price">Clothings</span>
+            </div>
+
+        </div>
+
+    </section>
+    <!--popular-bundle-pack-end-------------------------------->
+
+    <!--==Products====================================-->
+    <section id="popular-product">
+
+        <!--heading----------->
+        <div class="product-heading">
+            <h3>Deals of the week</h3>
+            
+        </div>
+
+
+        <!--box-container------>
+        <div class="product-container">
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="../images/apple.png" alt="apple">
+                <strong>Apple</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">2$</span>
+                <!--cart-btn------->
+                <a class="cart-btn" onclick="addTocart()"><i class="fas fa-shopping-bag"></i> Add Cart</a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="../images/p4.png" alt="apple">
+                <strong>Skull Candy</strong>
+                <span class="quantity">Headphones</span>
+                <span class="price">275$</span>
+                <!--cart-btn------->
+                <a onclick="addTocart()" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="../images/milk.png" alt="apple">
+                <strong>Neilson Milk (2.35% fat)</strong>
+                <span class="quantity">2 L</span>
+                <span class="price">4$</span>
+                <!--cart-btn------->
+                <a onclick="addTocart()" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="../images/jordan.jpg" alt="apple">
+                <strong>Air Jordans</strong>
+                <span class="quantity">Nike</span>
+                <span class="price">250$</span>
+                <!--cart-btn------->
+                <a onclick="addTocart()" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="../images/speaker.jpg" alt="apple">
+                <strong>Jbl Wireless 3.0</strong>
+                <span class="quantity">Speakers</span>
+                <span class="price">175$</span>
+                <!--cart-btn------->
+                <a onclick="addTocart()" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="../images/watch.jpg"" alt="apple">
+                <strong>iWatch Ultra</strong>
+                <span class="quantity">Apple Inc.</span>
+                <span class="price">535$</span>
+                <!--cart-btn------->
+                <a onclick="addTocart()" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+    <!--popular-product-end--------------------->
+
+    <!--==Clients===============================================-->
+    <section id="clients">
+
+        <!--heading---------------->
+        <div class="client-heading">
+            <h3>What Our Client's Say</h3>
+        </div>
+
+        <!--box-container---------->
+        <div class="client-box-container">
+
+            <!--box------------->
+            <div class="client-box">
+
+                <!--==profile===-->
+                <div class="client-profile">
+                    <!--img--->
+                    <img src="../images/client-1.jpg" alt="client">
+                    <!--text-->
+                    <div class="profile-text">
+                        <strong>James Mcavoy</strong>
+                        <span>CEO</span>
+                    </div>
+                </div>
+
+                <!--==Rating======-->
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <!--==comments===-->
+                <p>“I absolutely love shopping at eMart! Their wide selection of products make every visit enjoyable. Whether I’m picking up groceries, household essentials, or treating myself to a little something special, eMart never disappoints. Plus, their loyalty program and weekly discounts are fantastic. Keep up the great work, eMart!”</p>
+
+            </div>
+
+
+            <!--box------------->
+            <div class="client-box">
+
+                <!--==profile===-->
+                <div class="client-profile">
+                    <!--img--->
+                    <img src="../images/client-2.jpg" alt="client">
+                    <!--text-->
+                    <div class="profile-text">
+                        <strong>Adward Mcavoy</strong>
+                        <span>Software Developer</span>
+                    </div>
+                </div>
+
+                <!--==Rating======-->
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <!--==comments===-->
+                <p>“eMart is my go-to online supermart! Their user-friendly website, lightning-fast delivery, and top-notch customer service make shopping a breeze. Whether I’m stocking up on pantry essentials or treating myself to a little indulgence, eMart consistently exceeds my expectations. Plus, their eco-friendly packaging and commitment to quality products are commendable. Keep up the fantastic work, eMart!”</p>
+
+            </div>
+
+
+            <!--box------------->
+            <div class="client-box">
+
+                <!--==profile===-->
+                <div class="client-profile">
+                    <!--img--->
+                    <img src="../images/client-3.jpg" alt="client">
+                    <!--text-->
+                    <div class="profile-text">
+                        <strong>Ava Alex</strong>
+                        <span>Marketer</span>
+                    </div>
+                </div>
+
+                <!--==Rating======-->
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <!--==comments===-->
+                <p>“eMart is a game-changer! Their seamless online shopping experience, lightning-fast delivery, and exceptional product quality keep me coming back. Whether I’m restocking my pantry or exploring new treats, eMart’s diverse selection never disappoints. Plus, their eco-conscious initiatives make me feel good about supporting them. Kudos to the eMart team!”</p>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!--client-section-end---------->
+
+
+
+    <!--==Footer=================================-->
+    <footer>
+
+
+        <!--**container***********************-->
+        <div class="footer-container">
+
+            <!--**company**-->
+            <div class="footer-company-box">
+                <!--logo-->
+                <a href="../images/logo.png" class="footer-logo">Instamart</a>
+                <!--details-->
+                <p>No Empty Cart This Season With Instamart.</p>
+                <!--social-box-->
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <!--**link-box**-->
+            <div class="footer-link-box">
+                <strong>Main Link's</strong>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about us.html">About</a></li>
+                    <li><a href="contact us.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!--**subscribe**-->
+            <div class="footer-subscribe">
+                <strong>Subscribe Now</strong>
+                <p>And Get Updates On Latest Deals.</p>
+                <!--subscribe-box-->
+                <div class="subscribe-box">
+                    <input type="email" placeholder="Example@gmail.com" required/>
+                    <button>Subscribe</button>
+                </div>
+            </div>
+
+        </div><!--container-end-->
+
+        <!--**bottom********************-->
+        <div class="footer-bottom">
+            <span class="footer-owner">Made By Soumil,Jasmeet,Sajneet,Komal,Aryan</span>
+            <span class="copyright">© Copyright 2022</span>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
